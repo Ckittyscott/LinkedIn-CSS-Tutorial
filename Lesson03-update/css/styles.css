@@ -1,0 +1,349 @@
+/*Global Styles
+------------------------------*/
+
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
+
+h2{
+    font-family:'Montserrat', sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    color: #F77984;
+
+
+}
+h3{
+    font-family:'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+
+}
+.tagline{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    color: #F77984;
+    padding: 0 0 30px 0;
+    margin-top: -30px;
+    margin-left: 0;
+    font-weight: lighter;
+}
+
+.description{
+    padding-bottom: 20px;
+}
+
+/*Profile
+------------------------------*/
+header{
+    background: #F8F0FF;
+    margin: 0;
+    padding: 0;
+    color: #41383B;
+    height: 800px;
+}
+#background{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family:'Playfair Display', serif;
+    font-size: 133px;
+    font-weight: 900;
+    padding: 0 0 0 130px;
+    margin: 0;
+    color: #F77984;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #ffffff, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+    
+    
+}
+#greeting{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 53px;
+    letter-spacing: 15px;
+    padding: 130px 0 0 130px;
+    margin: 0;
+    font-weight: lighter;
+    color: #41383B;
+    
+}
+
+#title{
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 2px;
+    padding: 20px 0 0 130px;
+    font-weight: lighter;
+    color: #41383B;
+
+}
+
+#statement{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 23px;
+    padding: 50px 130px 0 130px;
+    font-weight: lighter;
+    line-height: 1.8;
+    text-align: justify;
+    position:relative; left:760px; top: -591px;
+    color: #41383B;
+
+}
+
+/*Education
+------------------------------*/
+.education{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 23px;
+    padding: 100px 130px 150px 130px;
+    font-weight: lighter;
+    line-height: 1.2;
+    color: #41383B;
+    width: 30%;
+
+}
+
+/*Work Experience
+------------------------------*/
+.experience{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 23px;
+    padding: 70px 130px 150px 130px;
+    font-weight: lighter;
+    line-height: 1.2;
+    color: #41383B;
+    border-top: 5px dotted #F77984;
+    height: 1250px;
+    
+}
+
+/*Skills
+------------------------------*/
+.skills{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 23px;
+    padding: 70px 130px 150px 130px;
+    font-weight: lighter;
+    line-height: 1.3;
+    color: #41383B;
+    width: 30%;
+    position:relative; left:760px; top: -2792px;
+    height: 400px;
+
+}
+.photoshop{
+    list-style: none;
+    position: relative;
+    margin: 0px 0;
+    font-weight: 500;
+    text-transform: uppercase
+}
+.photoshop::before{
+    content: "";
+    position: absolute; left: 0; top:calc(100% + 10px);
+    width: 100%;
+    height: 15px;
+    background-color: #ffa2a6;
+    border-radius: 1000px;
+
+}
+.photoshop::after{
+    content: "";
+    position: absolute; left:0; top:calc(100% + 10px);
+    width: 100%;
+    height: 15px;
+    background-color: #F77984;
+    border-radius: 1000px;
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-name: photoshop;
+}
+    
+@keyframes photoshop{
+    to{
+        width: 90%;
+    }
+
+}
+.indesign{
+    list-style: none;
+    position: relative;
+    margin: 80px 0;
+    font-weight: 500;
+    text-transform: uppercase
+}
+.indesign::before{
+    content: "";
+    position: absolute; left:0; top:calc(100% + 10px);
+    width: 90%;
+    height: 15px;
+    background-color: #ffa2a6;
+    border-radius: 1000px;
+
+}
+.indesign::after{
+    content: "";
+    position: absolute; left: 0; top:calc(100% + 10px);
+    width: 100%;
+    height: 15px;
+    background-color: #F77984;
+    border-radius: 1000px;
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-name: indesign;
+}
+@keyframes indesign{
+    to{
+        width: 80%;
+    }
+
+}
+
+.sketchup{
+    list-style: none;
+    position: relative;
+    margin: 80px 0;
+    font-weight: 500;
+    text-transform: uppercase
+}
+.sketchup::before{
+    content: "";
+    position: absolute; left: 0; top:calc(100% + 10px);
+    width: 100%;
+    height: 15px;
+    background-color: #ffa2a6;
+    border-radius: 1000px;
+}
+.sketchup::after{
+    content: "";
+    position: absolute; left: 0; top:calc(100% + 10px);
+    width: 100%;
+    height: 15px;
+    background-color: #F77984;
+    border-radius: 1000px;
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-name: sketchup;
+
+}
+@keyframes sketchup{
+    to{
+        width: 65%;
+    }
+
+}
+.autocad{
+    list-style: none;
+    position: relative;
+    margin: 80px 0;
+    font-weight: 500;
+    text-transform: uppercase
+}
+.autocad::before{
+    content: "";
+    position: absolute; left: 0; top:calc(100% + 10px);
+    width: 100%;
+    height: 15px;
+    background-color: #ffa2a6;
+    border-radius: 1000px;
+}
+.autocad::after{
+    content: "";
+    position: absolute; left: 0; top:calc(100% + 10px);
+    width: 100%;
+    height: 15px;
+    background-color: #F77984;
+    border-radius: 1000px;
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-name: autocad;
+}
+@keyframes autocad{
+    to{
+        width: 90%;
+    }
+
+}
+
+.office{
+    list-style: none;
+    position: relative;
+    margin: 80px 0;
+    font-weight: 500;
+    text-transform: uppercase
+}
+.office::before{
+    content: "";
+    position: absolute; left:0; top:calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: #ffa2a6;
+    border-radius: 1000px;
+}
+.office::after{
+    content: "";
+    position: absolute; left: 0; top:calc(100% + 10px);
+    width: 100%;
+    height: 15px;
+    background-color: #F77984;
+    border-radius: 1000px;
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-name: office;
+
+}
+@keyframes office{
+    to{
+        width: 95%;
+    }
+
+}
+/*Contact Info
+------------------------------*/
+footer{
+    background: #F8F0FF;
+    color:#41383B;
+    padding: 70px 130px 150px 130px;
+    height: 200px;
+}
+
+#contact{
+    color: #41383B;
+}
+#socials{
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 23px;
+    line-height: 2.0;
+     position: relative; left:760px; top: -180px;
+
+}
+a:link{
+    color:#41383B;
+    text-decoration: none;
+}
+a:visited{
+    color: purple;
+    text-decoration: none;
+}
